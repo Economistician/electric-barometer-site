@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="16"
+  height="16"
+  role="img"
+  aria-label="Electric Barometer favicon">
+
+  <defs>
+    <style>
+      .gauge { fill: none; stroke: #2F4A5D; stroke-width: 6; stroke-linecap: butt; }
+      .bolt  { fill: #E6A11A; }
+    </style>
+  </defs>
+
+  <!-- Gauge arc -->
+  <path
+    class="gauge"
+    d="M 8 40 A 24 24 0 0 1 56 40"
+  />
+
+  <!-- Lightning bolt -->
+  <path
+    class="bolt"
+    d="
+      M 36 12
+      L 28 28
+      L 34 28
+      L 22 52
+      L 40 30
+      L 32 30
+      Z
+    "
+  />
+</svg>
